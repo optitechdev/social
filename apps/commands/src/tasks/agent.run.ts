@@ -10,6 +10,7 @@ export class AgentRun {
     describe: 'Run the agent',
   })
   async agentRun() {
-    console.log(await this._agentGraphService.createGraph('hello', true));
+    // TODO: Implement agent run command
+    console.log('Agent run command not yet implemented');
   }
 }
