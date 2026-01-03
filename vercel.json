@@ -1,9 +1,8 @@
 {
-  "buildCommand": "cd ../.. && pnpm install && pnpm run build:frontend",
-  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install --frozen-lockfile",
   "framework": "nextjs",
   "outputDirectory": ".next",
   "devCommand": "pnpm run dev",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD .",
-  "crons": []
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ."
 }
