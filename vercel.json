@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd ../.. && pnpm install && pnpm run build:frontend",
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "devCommand": "pnpm run dev",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD .",
+  "crons": []
+}
